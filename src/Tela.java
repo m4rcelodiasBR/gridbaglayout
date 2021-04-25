@@ -35,7 +35,7 @@ public class Tela extends JFrame {
         getContentPane().setLayout(layout);
         
         
-        List lEsq = new List(noLinhas, true);
+        List lEsq = new List(noLinhas, true); teste;
         lEsq.add("Um");
         lEsq.add("Dois");
         lEsq.add("Três");
