@@ -35,7 +35,7 @@ public class Tela extends JFrame {
         getContentPane().setLayout(layout);
         
         
-        List lEsq = new List(noLinhas, true);
+        List lEsq = new List(15, true); 
         lEsq.add("Um");
         lEsq.add("Dois");
         lEsq.add("Três");
@@ -47,7 +47,7 @@ public class Tela extends JFrame {
         Button add = new Button(">>");
         Button clear = new Button("Clear");
         Button close = new Button("Close");
-        TextArea tDir = new TextArea("", noLinhas, 10, TextArea.SCROLLBARS_NONE);
+        TextArea tDir = new TextArea("", 10, TextArea.SCROLLBARS_NONE);
         
         GridBagConstraints restricoes = new GridBagConstraints();
         restricoes.gridx = 0;
